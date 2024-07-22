@@ -1,0 +1,33 @@
+.custom-pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .custom-pagination .page-link {
+    color: #007bff;
+  }
+  
+  .custom-pagination .page-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+  }
+  
+  .custom-pagination .page-item.disabled .page-link {
+    color: #6c757d;
+  }
+  
+  .custom-pagination {
+    margin-top: 20px;
+  }
+  
+  .custom-pagination .page-item:first-child .page-link {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  
+  .custom-pagination .page-item:last-child .page-link {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  
